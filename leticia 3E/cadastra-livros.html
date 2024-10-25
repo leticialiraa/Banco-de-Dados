@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Livros</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <div class="container">
+            <div class="box">
+                <h1>CADASTRO DE LIVROS</h1>
+                <form action="cadastra-livros.php" method="post">
+                <div>
+                    <label for="Titulo">Título::</label><br>
+                    <input type="text" id="titulo" name="titulo">
+                </div>
+                <div>
+                    <label for="Autor:">Autor(a):</label><br>
+                    <input type="text" id="autor" name="autor">
+                </div>
+                <div>
+                    <label for="Editora">Editora:</label><br>
+                    <input type="text" id="editora" name="editora">
+                </div>
+                <div>
+                    <label for="Sinopse">Sinopse:</label><br>
+                    <input type="text" id="sinopse" name="sinopse">
+                </div>
+                <div>
+                    <label for="AnoPublicacao">Ano de Publicação:</label><br>
+                    <input type="number" id="anopublicacao" name="anopublicacao">
+                </div>
+                <div>
+                    <label for="Genero">Gênero::</label><br> 
+                    <input type="text" id="genero" name="genero">
+                </div>
+                <div>
+                    <label for="Paginas">Número de Páginas:</label><br>
+                    <input type="number" id="paginas" name="paginas">
+                </div>
+                <div><br>
+                    <button type="submit">Cadastrar</button>
+                </div>
+            </div>
+        </div>
+        
+</body>
+</html>
