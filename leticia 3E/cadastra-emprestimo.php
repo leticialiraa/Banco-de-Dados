@@ -44,7 +44,7 @@
         } else {
             // Insere o empréstimo no banco de dados
             $sql = "INSERT INTO emprestimos (CodLeitor, CodLivro, Data_Emprestimo, Data_Devolucao);
-                    VALUES ($codleitor, $codlivro, $data_emprestimo, $data_devolucao)";
+                    VALUES ('$codleitor', '$codlivro', '$data_emprestimo', '$data_devolucao')";
 
             if (mysqli_query($conn, $sql)) {
                 echo "<p>Empréstimo cadastrado com sucesso!</p>";

@@ -19,7 +19,4 @@ if (!$conn){
     //A seta -> é usada para acessar propriedades e métodos de objetos PHP, tornando o código mais legível e fácil do mundo
     die("Falha na conexão: " . mysqli_connect_error());
 }
-else{
-    echo "PARABÉNS!!! A conexão ao banco de dados ocorreu normalmente!";
-}
 ?>
